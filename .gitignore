@@ -1,0 +1,93 @@
+# Laravel default .gitignore
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+/.env
+/.env.backup
+/.phpunit.result.cache
+/docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+/.vagrant
+
+# Docker specific
+docker-compose.override.yml
+docker-compose.prod.yml
+docker-compose.dev.yml
+docker-compose.test.yml
+
+# Logs
+*.log
+/storage/logs/*
+!storage/logs/.gitkeep
+
+# Cache
+/bootstrap/cache/*
+!bootstrap/cache/.gitkeep
+
+# Testing
+/coverage
+.phpunit.result.cache
+
+# Development tools
+_ide_helper.php
+.phpstorm.meta.php
+*.sublime-*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Development environment files
+.env.*
+!.env.example
+
+# Deployment files
+deploy.php
+deploy/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Composer
+/composer.lock
+/vendor/
+
+# NPM/Yarn
+/node_modules/
+package-lock.json
+yarn.lock
+
+# Database files
+*.sql
+*.sqlite
+
+# Docker volumes
+/docker/mysql/data/
+/docker/nginx/logs/
+
+# Local development files
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Laravel specific
+public/js/
+public/css/
+public/mix-manifest.json
+public/hot
+
+# Debugging
+debugbar.json
