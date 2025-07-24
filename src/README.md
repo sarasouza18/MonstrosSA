@@ -2,7 +2,7 @@
 ###  `README.md`
 
 ````markdown
-# 💡 Projeto Laravel com Docker — Monstros S.A.
+# Projeto Laravel com Docker — Monstros S.A.
 
 Este projeto utiliza Laravel 12 com Docker e MySQL. Siga os passos abaixo para subir o ambiente e executar as configurações iniciais.
 
